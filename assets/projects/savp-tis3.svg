@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="SAVP TIS 3 - Plataforma institucional de educacion">
+      <defs>
+        <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080F22"/><stop offset="1" stop-color="#141E38"/></linearGradient>
+        <linearGradient id="accent" x2="1"><stop stop-color="#34D399"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+        <pattern id="lines" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#A1BCD6" stroke-opacity=".075"/></pattern>
+      </defs>
+      <rect width="1200" height="350" rx="21" fill="url(#bg)"/><rect width="1200" height="350" rx="21" fill="url(#lines)"/>
+      <circle cx="939" cy="158" r="160" fill="#34D399" opacity=".05"/>
+      <rect x="32" y="31" width="177" height="30" rx="15" fill="#34D399" fill-opacity=".15" stroke="#34D399" stroke-opacity=".6"/>
+      <circle cx="49" cy="46" r="4" fill="#2DD4BF"/><text x="65" y="51" fill="#E2E8F0" font-family="Arial" font-size="12">PROYECTO DESTACADO</text>
+      <text x="35" y="141" font-family="Segoe UI,Arial,sans-serif" font-size="61" font-weight="800" fill="#F8FAFC">SAVP TIS 3</text>
+      <text x="36" y="187" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" fill="#C8D4E8">Plataforma institucional de educacion</text>
+      <text x="36" y="238" font-family="Consolas,monospace" font-size="15" fill="#34D399">LARAVEL  LIVEWIRE  POSTGRESQL  FASTAPI</text>
+      <path d="M36 263H713" stroke="url(#accent)" stroke-width="1.4" stroke-opacity=".8"/>
+      <text x="36" y="304" font-family="Consolas,monospace" font-size="13" fill="#8295B6">Gestion academica  /  Aula virtual  /  Orientacion vocacional</text>
+      <rect x="785" y="80" width="333" height="192" rx="17" fill="#111E35" stroke="#30607D"/>
+          <rect x="800" y="98" width="92" height="156" rx="12" fill="#0C2A2C"/><text x="813" y="119" font-size="12" fill="#69D0C0">PANEL</text>
+          <rect x="906" y="100" width="194" height="38" rx="8" fill="#203451"/>
+          <g fill="#1B304D"><rect x="906" y="148" width="90" height="57" rx="9"/><rect x="1005" y="148" width="95" height="57" rx="9"/><rect x="906" y="214" width="194" height="39" rx="8"/></g>
+          <g fill="#5EEAD4"><rect x="919" y="166" width="43" height="9" rx="4"/><rect x="1017" y="166" width="46" height="9" rx="4"/></g>
+          <g fill="#CBD5E1" font-size="9"><text x="914" y="124">Gestion academica</text><text x="914" y="241">Orientacion y aulas virtuales</text></g>
+          <circle cx="1047" cy="189" r="6" fill="#34D399"/>
+      <rect x="1" y="1" width="1198" height="348" rx="21" stroke="#34D399" stroke-opacity=".4" fill="none" stroke-width="2"/>
+      <style>@media (prefers-reduced-motion: reduce){animateTransform{display:none}}</style>
+    </svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+  <title id="title">VICTOR — Developer Portfolio</title>
+  <desc id="desc">Cabecera oscura con luces cyan y violeta, circuitos y una órbita animada.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#070B1A"/><stop offset=".58" stop-color="#101534"/><stop offset="1" stop-color="#071528"/></linearGradient>
+    <linearGradient id="neon" x1="0" x2="1"><stop stop-color="#22D3EE"/><stop offset=".55" stop-color="#7DD3FC"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <linearGradient id="panel" x1="0" x2="1"><stop stop-color="#182046" stop-opacity=".85"/><stop offset="1" stop-color="#11142E" stop-opacity=".26"/></linearGradient>
+    <radialGradient id="aura"><stop stop-color="#06B6D4" stop-opacity=".25"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M 38 0 L 0 0 0 38" fill="none" stroke="#83A5E0" stroke-width=".8" opacity=".08"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="348" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="350" fill="url(#bg)"/>
+    <rect width="1200" height="350" fill="url(#grid)"/>
+    <circle cx="955" cy="181" r="288" fill="url(#aura)"/>
+    <path d="M0 296H245l25-23h110 M0 63h180l28 25h170 M1030 48h170 M985 318h215" fill="none" stroke="#22D3EE" stroke-width="1.5" opacity=".35" stroke-dasharray="4 14">
+      <animate attributeName="stroke-dashoffset" from="0" to="-72" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <g opacity=".66">
+      <rect x="58" y="53" width="129" height="22" rx="11" fill="#1B3150" stroke="#2DD4BF" stroke-width=".7"/>
+      <circle cx="74" cy="64" r="3.5" fill="#2DD4BF"><animate attributeName="opacity" values="1;.15;1" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="86" y="68" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#AFE8EA" letter-spacing="1.4">SYSTEM ONLINE</text>
+    </g>
+    <text x="56" y="152" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="73" font-weight="800" fill="#F3F8FF" letter-spacing="5">VICTOR</text>
+    <text x="60" y="198" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="url(#neon)" letter-spacing="6">SOFTWARE DEVELOPER</text>
+    <rect x="60" y="221" width="410" height="1.5" fill="url(#neon)" opacity=".7"/>
+    <text x="60" y="252" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#A9BBD9" letter-spacing=".5">Diseño  /  Código  /  Automatización  /  IA</text>
+    <text x="60" y="306" font-family="Consolas,monospace" font-size="14" fill="#57D9E9">&gt; transforming_ideas_into_software</text>
+    <rect x="355" y="295" width="11" height="17" rx="1" fill="#57D9E9"><animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/></rect>
+    <g transform="translate(963 175)">
+      <circle r="128" fill="url(#panel)" stroke="#6280CA" opacity=".64"/>
+      <circle r="107" fill="none" stroke="#19CDE8" opacity=".65" stroke-width="1.4" stroke-dasharray="60 20 2 15">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="35s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="84" fill="none" stroke="#9E84FF" stroke-width="2" stroke-dasharray="5 17 100 42" opacity=".8">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="64" fill="#08152A" stroke="#22D3EE" stroke-width="1.2" opacity=".96"/>
+      <circle r="49" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="11 9" opacity=".45"/>
+      <path d="M-24 -10 L-10 -25 M-24 -10 L-10 5 M23 -10 L9 -25 M23 -10 L9 5 M-10 5 L-1 20 L9 -25" fill="none" stroke="url(#neon)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+      <g fill="#22D3EE" filter="url(#glow)">
+        <circle cx="0" cy="-107" r="4"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="11s" repeatCount="indefinite"/></circle>
+        <circle cx="0" cy="84" r="3"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="15s" repeatCount="indefinite"/></circle>
+      </g>
+    </g>
+    <g font-family="Consolas,monospace" font-size="11" fill="#6DD9ED" opacity=".55">
+      <text x="785" y="42">01 / BUILD</text>
+      <text x="1053" y="313">02 / SHIP</text>
+      <text x="758" y="307">{ code: true }</text>
+    </g>
+    <rect x="1" y="1" width="1198" height="348" rx="22" fill="none" stroke="#5D75B5" stroke-width="1.5" opacity=".55"/>
+  </g>
+  <style>@media (prefers-reduced-motion: reduce){animate,animateTransform{display:none}}</style>
+</svg>

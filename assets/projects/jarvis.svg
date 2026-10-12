@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="MI JARVIS - Asistente inteligente de escritorio">
+      <defs>
+        <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080F22"/><stop offset="1" stop-color="#141E38"/></linearGradient>
+        <linearGradient id="accent" x2="1"><stop stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+        <pattern id="lines" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#A1BCD6" stroke-opacity=".075"/></pattern>
+      </defs>
+      <rect width="1200" height="350" rx="21" fill="url(#bg)"/><rect width="1200" height="350" rx="21" fill="url(#lines)"/>
+      <circle cx="939" cy="158" r="160" fill="#60A5FA" opacity=".05"/>
+      <rect x="32" y="31" width="177" height="30" rx="15" fill="#60A5FA" fill-opacity=".15" stroke="#60A5FA" stroke-opacity=".6"/>
+      <circle cx="49" cy="46" r="4" fill="#60A5FA"/><text x="65" y="51" fill="#E2E8F0" font-family="Arial" font-size="12">PROYECTO DESTACADO</text>
+      <text x="35" y="141" font-family="Segoe UI,Arial,sans-serif" font-size="61" font-weight="800" fill="#F8FAFC">MI JARVIS</text>
+      <text x="36" y="187" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" fill="#C8D4E8">Asistente inteligente de escritorio</text>
+      <text x="36" y="238" font-family="Consolas,monospace" font-size="15" fill="#60A5FA">PYTHON  GTK4  PIPER TTS  EVENTBUS</text>
+      <path d="M36 263H713" stroke="url(#accent)" stroke-width="1.4" stroke-opacity=".8"/>
+      <text x="36" y="304" font-family="Consolas,monospace" font-size="13" fill="#8295B6">Interfaz reactiva  /  Voz local  /  Automatizacion</text>
+      <g transform="translate(940 170)">
+          <circle r="100" stroke="#5A72BC" stroke-width="1.5" fill="none" stroke-dasharray="18 12"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/></circle>
+          <rect x="-63" y="-60" width="126" height="123" rx="35" fill="#182D58" stroke="#6DBDFB" stroke-width="3"/>
+          <rect x="-47" y="-28" width="94" height="61" rx="17" fill="#071326"/>
+          <ellipse cx="-22" cy="1" rx="8" ry="11" fill="#22D3EE"/><ellipse cx="22" cy="1" rx="8" ry="11" fill="#22D3EE"/>
+          <path d="M-17 23Q0 34 17 23" stroke="#5EEAD4" stroke-width="4" fill="none"/>
+          <path d="M0 -60V-83" stroke="#7DD3FC" stroke-width="5"/><circle cy="-87" r="9" fill="#7DD3FC"/>
+          </g>
+      <rect x="1" y="1" width="1198" height="348" rx="21" stroke="#60A5FA" stroke-opacity=".4" fill="none" stroke-width="2"/>
+      <style>@media (prefers-reduced-motion: reduce){animateTransform{display:none}}</style>
+    </svg>
